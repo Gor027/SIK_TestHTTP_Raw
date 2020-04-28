@@ -61,7 +61,9 @@ Program stunnel działa w ten sposób, że na podstawie danych konfiguracyjnych 
 client = yes
 accept = 127.0.0.1:3333
 connect = www.mimuw.edu.pl:443
-połączenie na adres 127.0.0.1 z portem 3333 spowoduje, że dane tam przesyłane trafią połączeniem SSL/TLS do serwera pod adresem www.mimuw.edu.pl na porcie 443.
 ```
+
+połączenie na adres 127.0.0.1 z portem 3333 spowoduje, że dane tam przesyłane trafią połączeniem SSL/TLS do serwera pod adresem www.mimuw.edu.pl na porcie 443.
+
 
 Chcielibyśmy jeszcze zwrócić uwagę Państwa na to, że w niektórych konfiguracjach program stunnel zapisuje do wskazanego pliku swój pid. Sposobem tworzenia tego pliku można sterować poprzez zawartość pliku konfiguracyjnego.
